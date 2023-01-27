@@ -78,10 +78,14 @@
 										<a href="/category/{{&.}}" rel="category tag">{{&.}}</a>
 									{{ /articleSingle.category }}
 									<span class="dot">•</span>
-									<span id="{{ &articleSingle.url }}" class="waline_visitors">
-										<em>{{ &OPT.otherCodeA }}</em>
-										<i class="waline-pageview-count"></i>
-									</span>
+									<span class="item-meta-li views" title="阅读数">
+													<i class="wpcom-icon wi">
+														<svg aria-hidden="true">
+															<use xlink:href="#wi-eye"></use>
+														</svg>
+													</i>
+													<span class="waline-pageview-count" />
+												</span>
 								</div>
 							</div>
 							<div class="entry-content">
